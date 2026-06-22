@@ -1,0 +1,344 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "proyecto-elephant;compra-de-un-elephant",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Compra de un Elephant",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 616103200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Ingreso a la pagina de DemoGuru99",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2678497300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Cuando doy clic en generar tarjeta",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865982300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Copio el número de tarjeta",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65671299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Copio el número de CVV",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6313000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Copio la fecha de vencimiento",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12321400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Copio el monto límite",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6783000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Cierro la ventana de la tarjeta",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129344099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Capturo el monto individual del producto",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37770599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selecciono la cantidad del producto a comprar",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16753400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Doy clic en comprar",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 982183900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Ingreso el número de tarjeta",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55307099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Ingreso el mes de vencimiento",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16350900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Ingreso el año de vencimiento",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18864200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Ingreso el CVV",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19325499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Doy clic en pagar",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574208599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Me muestra el mensaje de pago exitoso",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "El número de orden de compra",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44461900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Doy clic en Home",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409533099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Regreso a la pantalla principal",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209981799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Doy clic en revisar límite de crédito",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527060400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Ingreso el valor de la tarjeta",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81028099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Doy clic en submit",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407834500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Me muestra los datos de compra",
+            "match": {
+              "location": "tests\\steps\\elephant.steps.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190981400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7777765300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elephant",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "proyecto-elephant",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Proyecto Elephant",
+    "tags": [],
+    "uri": "tests\\features\\elephant.feature"
+  }
+]
