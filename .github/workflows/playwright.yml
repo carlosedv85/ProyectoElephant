@@ -43,7 +43,7 @@ jobs:
 
 
      - name: Ejecutar pruebas Cucumber
-       run: npm run test:formulario
+       run: npm run test:elephant
        env:
          CI: true
 
