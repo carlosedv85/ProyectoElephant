@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean:reports": "rimraf reports && node -e \"['reports/json','reports/html-report','reports/screenshots','reports/videos'].forEach(d => require('fs').mkdirSync(d, { recursive: true }))\"",
+    "clean:reports": "rimraf reports && mkdir -p reports/json reports/html-report reports/screenshots reports/videos",
     "test": "npm run clean:reports && cucumber-js --format progress --format json:reports/json/cucumber-report.json && npm run report",
     "test:dev": "npm run clean:reports && cross-env ENV=dev cucumber-js --format progress --format json:reports/json/dev-report.json && npm run report",
     "test:smoke": "npm run clean:reports && cucumber-js --tags @smoke --format progress --format json:reports/json/smoke-report.json && npm run report",
